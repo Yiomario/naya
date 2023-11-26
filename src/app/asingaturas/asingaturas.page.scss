@@ -1,0 +1,13 @@
+.card-button {
+    position: absolute;
+    bottom: 10px; /* Ajusta esto para controlar la distancia desde el borde inferior de la tarjeta */
+    right:  10px;   /* Ajusta esto para controlar la distancia desde el borde izquierdo de la tarjeta */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1; /* Asegura que el botón esté por encima del contenido de la tarjeta */
+  }
+  

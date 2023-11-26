@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>ALUMNOS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let usuario of arquitectura">
+      <ion-avatar slot="start">
+        <img src="../../assets/img/{{ usuario.image }}" alt="Avatar de usuario">
+      </ion-avatar>
+      <ion-avatar slot="end">
+        <ion-icon name="checkbox-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>
+        <h2 class="colorBlue">{{ usuario.nombre }}</h2>
+        <p>{{ usuario.usuario }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-fab vertical="bottom" horizontal="end">
+    <ion-button expand="full" color="primary" (click)="redirigirAPagina()">Generar QR</ion-button>
+  </ion-fab>
+</ion-content>

@@ -1,0 +1,341 @@
+{
+    "posts": [
+        {
+          "id": 1,
+          "title": "json-server",
+          "author": "typicode"
+        }
+      ],
+    "usuarios" : [
+        {
+            "id": 1,
+            "usuario": "m.galarce",
+            "nombre": "Mario ",
+            "apellido": "Galarce",
+            "correo": "m.galarce@duocuc.cl",
+            "contraseña": "12345",
+            "image":"mario.jpg"
+        },
+        {
+            "id": 2,
+            "usuario":" n.huenchullan",
+            "nombre":" Nayared ",
+            "apellido": "huenchullan",
+            "correo": "n.huenchallan@duocuc.cl",
+            "contraseña": "12345",
+            "image":"nayared.jpg"
+        },
+        {
+            "id": 3,
+            "usuario":" ma.garcia",
+            "nombre":" Marco ",
+            "apellido": "garcia",
+            "correo": "ma.garcia@duocuc.cl",
+            "contraseña": "12345",
+            "image":"marco.jpg"
+           
+        },
+        {
+            "id": 4,
+            "usuario":"c.marquez",
+            "nombre":" Catalina ",
+            "apellido": "marquez",
+            "correo": "c.marquez@duocuc.cl",
+            "contraseña":"12345",
+            "image":"catalina.jpg"
+        },
+        {
+            "id": 5,
+            "usuario": "a.gonzalez",
+            "nombre": "Ana",
+            "apellido": "Gonzalez",
+            "correo": "a.gonzalez@example.com",
+            "image":"mujer1.jpg"
+
+          },
+          {
+            "id": 6,
+            "usuario": "d.rodriguez",
+            "nombre": "David",
+            "apellido": "Rodriguez",
+            "correo": "d.rodriguez@example.com",
+            "image":"hombre1.jpg"
+          },
+          {
+            "id": 7,
+            "usuario": "e.perez",
+            "nombre": "Elena",
+            "apellido": "Perez",
+            "correo": "e.perez@example.com",
+            "image":"mujer2.jpg"
+          },
+          {
+            "id": 8,
+            "usuario": "j.smith",
+            "nombre": "John",
+            "apellido": "Smith",
+            "correo": "j.smith@example.com",
+            "image":"hombre2.jpg"
+          },
+          {
+            "id": 9,
+            "usuario": "m.johnson",
+            "nombre": "Mary",
+            "apellido": "Johnson",
+            "correo": "m.johnson@example.com",
+            "image":"mujer3.jpg"
+          },
+          {
+            "id": 10,
+            "usuario": "r.wilson",
+            "nombre": "Robert",
+            "apellido": "Wilson",
+            "correo": "r.wilson@example.com",
+            "image":"hombre3.jpg"
+          },
+          {
+            "id": 12,
+            "usuario": "l.lopez",
+            "nombre": "Luis",
+            "apellido": "Lopez",
+            "correo": "l.lopez@example.com",
+            "image":"hombre4.jpg"
+          },
+          {
+            "id": 13,
+            "usuario": "s.gomez",
+            "nombre": "Sofia",
+            "apellido": "Gomez",
+            "correo": "s.gomez@example.com",
+            "image":"mujer4.jpg"
+          },
+          {
+            "id": 14,
+            "usuario": "p.martinez",
+            "nombre": "Pedro",
+            "apellido": "Martinez",
+            "correo": "p.martinez@example.com",
+            "image":"hombre5.jpg"
+          }
+        
+    ],
+    "programacion" : [
+        {
+            "id": 1,
+            "usuario": "m.galarce",
+            "nombre": "Mario ",
+            "apellido": "Galarce",
+            "correo": "m.galarce@duocuc.cl",
+            "contraseña": "12345",
+            "image":"mario.jpg"
+        },
+        {
+            "id": 2,
+            "usuario":" n.huenchullan",
+            "nombre":" Nayared ",
+            "apellido": "huenchullan",
+            "correo": "n.huenchallan@duocuc.cl",
+            "contraseña": "12345",
+            "image":"nayared.jpg"
+        },
+        {
+            "id": 3,
+            "usuario":" ma.garcia",
+            "nombre":" Marco ",
+            "apellido": "garcia",
+            "correo": "ma.garcia@duocuc.cl",
+            "contraseña": "12345",
+            "image":"marco.jpg"
+           
+        },
+        {
+            "id": 4,
+            "usuario":"c.marquez",
+            "nombre":" Catalina ",
+            "apellido": "marquez",
+            "correo": "c.marquez@duocuc.cl",
+            "contraseña":"12345",
+            "image":"catalina.jpg"
+        },
+        {
+            "id": 5,
+            "usuario": "a.gonzalez",
+            "nombre": "Ana",
+            "apellido": "Gonzalez",
+            "correo": "a.gonzalez@example.com",
+            "image":"mujer1.jpg"
+
+          },
+          {
+            "id": 6,
+            "usuario": "d.rodriguez",
+            "nombre": "David",
+            "apellido": "Rodriguez",
+            "correo": "d.rodriguez@example.com",
+            "image":"hombre1.jpg"
+          },
+          {
+            "id": 7,
+            "usuario": "e.perez",
+            "nombre": "Elena",
+            "apellido": "Perez",
+            "correo": "e.perez@example.com",
+            "image":"mujer2.jpg"
+          }
+    ],
+    "arquitectura" : [
+        {
+            "id": 1,
+            "usuario": "m.galarce",
+            "nombre": "Mario ",
+            "apellido": "Galarce",
+            "correo": "m.galarce@duocuc.cl",
+            "contraseña": "12345",
+            "image":"mario.jpg"
+        },
+        {
+            "id": 2,
+            "usuario":" n.huenchullan",
+            "nombre":" Nayared ",
+            "apellido": "huenchullan",
+            "correo": "n.huenchallan@duocuc.cl",
+            "contraseña": "12345",
+            "image":"nayared.jpg"
+        },
+        {
+            "id": 3,
+            "usuario":" ma.garcia",
+            "nombre":" Marco ",
+            "apellido": "garcia",
+            "correo": "ma.garcia@duocuc.cl",
+            "contraseña": "12345",
+            "image":"marco.jpg"
+           
+        },
+        {
+            "id": 4,
+            "usuario":"c.marquez",
+            "nombre":" Catalina ",
+            "apellido": "marquez",
+            "correo": "c.marquez@duocuc.cl",
+            "contraseña":"12345",
+            "image":"catalina.jpg"
+        },
+        {
+            "id": 8,
+            "usuario": "j.smith",
+            "nombre": "John",
+            "apellido": "Smith",
+            "correo": "j.smith@example.com",
+            "image":"hombre2.jpg"
+          },
+          {
+            "id": 9,
+            "usuario": "m.johnson",
+            "nombre": "Mary",
+            "apellido": "Johnson",
+            "correo": "m.johnson@example.com",
+            "image":"mujer3.jpg"
+          },
+          {
+            "id": 10,
+            "usuario": "r.wilson",
+            "nombre": "Robert",
+            "apellido": "Wilson",
+            "correo": "r.wilson@example.com",
+            "image":"hombre3.jpg"
+          }
+        
+    ],
+    "calidad" : [
+        {
+            "id": 1,
+            "usuario": "m.galarce",
+            "nombre": "Mario ",
+            "apellido": "Galarce",
+            "correo": "m.galarce@duocuc.cl",
+            "contraseña": "12345",
+            "image":"mario.jpg"
+        },
+        {
+            "id": 2,
+            "usuario":" n.huenchullan",
+            "nombre":" Nayared ",
+            "apellido": "huenchullan",
+            "correo": "n.huenchallan@duocuc.cl",
+            "contraseña": "12345",
+            "image":"nayared.jpg"
+        },
+        {
+            "id": 3,
+            "usuario":" ma.garcia",
+            "nombre":" Marco ",
+            "apellido": "garcia",
+            "correo": "ma.garcia@duocuc.cl",
+            "contraseña": "12345",
+            "image":"marco.jpg"
+           
+        },
+        {
+            "id": 4,
+            "usuario":"c.marquez",
+            "nombre":" Catalina ",
+            "apellido": "marquez",
+            "correo": "c.marquez@duocuc.cl",
+            "contraseña":"12345",
+            "image":"catalina.jpg"
+        },
+        {
+            "id": 12,
+            "usuario": "l.lopez",
+            "nombre": "Luis",
+            "apellido": "Lopez",
+            "correo": "l.lopez@example.com",
+            "image":"hombre4.jpg"
+          },
+          {
+            "id": 13,
+            "usuario": "s.gomez",
+            "nombre": "Sofia",
+            "apellido": "Gomez",
+            "correo": "s.gomez@example.com",
+            "image":"mujer4.jpg"
+          },
+          {
+            "id": 14,
+            "usuario": "p.martinez",
+            "nombre": "Pedro",
+            "apellido": "Martinez",
+            "correo": "p.martinez@example.com",
+            "image":"hombre5.jpg"
+          }
+          
+        
+    ],
+    "mensajes": [
+        {
+          "id": 1,
+          "usuarioId": 1,
+          "asunto": "ejemplo 1",
+          "cuerpo": "afsdfasdafs"
+        },
+        {
+          "id": 2,
+          "usuarioId": 1,
+          "asunto": "ejemplo 1",
+          "cuerpo": "afsdf 45636 asdafs"
+        },
+        {
+          "id": 3,
+          "usuarioId": 2,
+          "asunto": "ejemplo 2",
+          "cuerpo": "fghdfghdfgh"
+        },
+        {
+          "id": 4,
+          "usuarioId": 2,
+          "asunto": "ejemplo 2",
+          "cuerpo": "6345fghdfghdf"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Bienvenido a ResgistrAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="subtitle-container">
+    <p class="subtitle">¡Bienvenido al mundo de la educación!</p>
+  </div>
+
+  <div class="card-container">
+    <ion-card class="custom-card">
+      <ion-card-header>
+        <ion-icon name="school"></ion-icon>
+        <ion-card-title>Profesor</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-router-link routerLink="/login">
+          <ion-button expand="full" color="primary">Ingresar</ion-button>
+        </ion-router-link>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card class="custom-card">
+      <ion-card-header>
+        <ion-icon name="school"></ion-icon>
+        <ion-card-title>Alumno</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-router-link routerLink="/loginalumno">
+          <ion-button expand="full" color="primary">Ingresar</ion-button>
+        </ion-router-link>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

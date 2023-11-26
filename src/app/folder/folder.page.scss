@@ -1,0 +1,58 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las tarjetas */
+  align-items: center; /* Centra verticalmente las tarjetas */
+  height: 100%;
+}
+
+.custom-card {
+  width: 300px; /* Ancho deseado para las tarjetas */
+  /* Estilos adicionales de la tarjeta según tus preferencias */
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px; /* Ajusta el margen superior según tus preferencias */
+}
+
+.subtitle {
+  font-size: 20px; /* Tamaño de fuente del subtítulo */
+  font-weight: bold; /* Puedes ajustar la negrita según tus preferencias */
+}
+ion-tabs {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff; /* Cambia el color de fondo según tus preferencias */
+  z-index: 999; /* Asegura que las pestañas estén en la parte superior de otros elementos */
+}

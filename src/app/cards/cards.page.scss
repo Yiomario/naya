@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente las tarjetas */
+    align-items: center; /* Centra verticalmente las tarjetas */
+    height: 100%;
+  }
+  
+  .custom-card {
+    width: 300px; /* Ancho deseado para las tarjetas */
+    /* Estilos adicionales de la tarjeta según tus preferencias */
+  }
+  .subtitle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px; /* Ajusta el margen superior según tus preferencias */
+  }
+  
+  .subtitle {
+    font-size: 20px; /* Tamaño de fuente del subtítulo */
+    font-weight: bold; /* Puedes ajustar la negrita según tus preferencias */
+  }
+  

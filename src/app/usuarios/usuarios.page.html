@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>ALUMNOS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list> <!-- Cambiado de <icon-list> a <ion-list> -->
+    <ion-item *ngFor="let usuario of usuarios">
+      <ion-avatar slot="start">
+        <img src="../../assets/img/{{usuario.image}}" alt="Avatar de usuario"> <!-- Agregado el atributo "alt" para la accesibilidad -->
+      </ion-avatar>
+      <ion-avatar slot="end">
+        <ion-icon name="checkbox-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>
+        <h2 class="colorBlue">{{ usuario.nombre }}</h2> <!-- Corregida la sintaxis para interpolación de variables -->
+        <p>{{usuario.usuario}}</p> <!-- Corregida la etiqueta 'cp' y el cierre de la etiqueta 'p' -->
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>
+<ion-fab vertical="bottom" horizontal="end">
+  <ion-button expand="full" color="primary" (click)="redirigirAPagina()">Scanear QR</ion-button>
+</ion-fab>

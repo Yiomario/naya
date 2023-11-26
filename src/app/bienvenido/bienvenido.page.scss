@@ -1,0 +1,48 @@
+/* Estilos para la página de bienvenida */
+
+/* Estilo para el encabezado */
+ion-header {
+    background-color: #3880ff; /* Cambia el color de fondo del encabezado */
+    ion-toolbar {
+      color: #fff; /* Cambia el color del texto en el encabezado */
+    }
+  }
+  
+  /* Estilos para el contenido */
+  ion-content {
+    --ion-background-color: #f4f4f4; /* Cambia el color de fondo del contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  /* Estilos para el mensaje de bienvenida */
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 16px;
+      color: #777;
+    }
+  }
+  
+  /* Estilos para el botón "Entrar" */
+  ion-button {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del botón */
+    margin-top: 20px;
+    text-align: center;
+    --ion-background-color: #3880ff; /* Cambia el color de fondo del botón */
+    --ion-text-color: #fff; /* Cambia el color del texto del botón */
+
+    
+    
+  }
+  
